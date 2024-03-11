@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer and Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .pdf-container {
+            width: 100%;
+            height: 80vh; /* Set the height to a percentage of the viewport height */
+            overflow: auto;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin: 20px 10px; /* Added space around the button */
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #3a8ff0;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #0d1369;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pdf-container">
+            <embed src="welcome-to-the/mission.pdf" type="application/pdf" width="90%" height="100%">
+        </div>
+        <a href="welcome-to-the/mission.pdf" class="download-btn" download>Zoom Mission In Now</a>
+    </div>
+</body>
+</html>
