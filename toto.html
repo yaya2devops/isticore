@@ -7,7 +7,7 @@
     <link rel="icon" href="https://istic.computer-engineering.tech/images/Iconcover.png">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated for a more modern font */
+            font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #003973, #E5E5BE); /* Advanced gradient symbolizing dawn of a new mission */
             margin: 0;
             padding: 0;
@@ -17,12 +17,13 @@
             align-items: center;
             height: 100vh;
             color: #333;
+            background-size: cover; /* Ensure the background covers the whole page */
         }
 
         .container {
             text-align: center;
             max-width: 800px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for legibility */
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
             padding: 20px;
@@ -40,30 +41,26 @@
 
         .download-btn {
             margin-top: 20px;
-            padding: 12px 28px; /* Slightly adjusted padding for a more balanced look */
-            background-color: #222222; /* Chose a lighter, softer blue for a professional look */
+            padding: 15px 30px;
+            background-color: #4CAF50; /* More professional green */
             color: #ffffff;
             text-decoration: none;
-            border: 2px solid transparent; /* Added border for a more button-like appearance */
-            border-radius: 25px; /* Rounded corners for a modern, friendly look */
-            font-weight: bold;
-            letter-spacing: 0.05em; /* Added letter spacing for readability */
-            transition: all 0.3s ease;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
         }
 
-        .download-btn:hover,
-        .download-btn:focus { /* Enhanced hover and focus state for interaction feedback */
-            background-color: #00b4d8; /* A slightly darker shade for interactive feedback */
-            border-color: #006EFF; /* Border color change for added depth on hover/focus */
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); /* Adjusted shadow for a more focused look */
-            transform: translateY(-2px); /* Slight lift effect for tactile feedback */
+        .download-btn:hover, .download-btn:focus {
+            background-color: #43A047; /* Darker green on hover for a refined look */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover for a "lifting" effect */
         }
     </style>
 </head>
 <body>
-    <a href="welcome-to-the/mission-xl.pdf" class="download-btn" download>Zoom—Mission—In Now</a>
+    <a href="welcome-to-the/mission-xl.pdf" class="download-btn" download>Download Mission Details</a>
     <div class="container">
         <div class="pdf-container">
             <embed src="welcome-to-the/mission-xl.pdf" type="application/pdf" width="90%" height="100%">
