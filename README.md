@@ -1,4 +1,4 @@
-### A Commitment to Educational Empowerment
+### A Commitment to Educational Empowerment,
 Ladies and Gentlemen,
 
 ![Get it!](https://github.com/yaya2devops/bachelor-guide/blob/main/docs/lifeline/mission.png)
