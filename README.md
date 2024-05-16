@@ -5,7 +5,9 @@ Ladies and Gentlemen,
 
 Welcome to ISTICORE – a testament to the unwavering commitment to student empowerment, driven by empathy and compassion.
 
-I aimed to articulate the genesis and raison d'être of disadvantaged and under-resourced, <br>A steadfast dedication to the educational advancement and holistic development of students within my community.
+I aimed to articulate the genesis and raison d'être of disadvantaged and under-resourced, 
+
+A steadfast dedication to the educational advancement and holistic development of students within my community.
 
 
 
