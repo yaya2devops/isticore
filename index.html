@@ -60,10 +60,30 @@
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); /* Adjusted shadow for a more focused look */
             transform: translateY(-2px); /* Slight lift effect for tactile feedback */
         }
+
+        .open-pdf-msg {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #F5DEB3; /* Beige color */
+        }
+
+        .open-pdf-msg:hover {
+            animation: bounce 0.5s infinite alternate;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(10px);
+            }
+        }
     </style>
 </head>
 <body>
-    <a href="welcome-to-the/mission-xl.pdf" class="download-btn" download>Zoom—Mission—In Now</a>
+    <a href="welcome-to-the/mission-xl.pdf" class="download-btn" download>Get The Mission—Now</a>
+    <div class="open-pdf-msg"><a href="https://create.ya-ya.tech/ISTICore.pdf" target="_blank" style="color: #F5DEB3;">Click for Immediate Access</a></div>
     <div class="container">
         <div class="pdf-container">
             <embed src="welcome-to-the/mission-xl.pdf" type="application/pdf" width="90%" height="100%">
